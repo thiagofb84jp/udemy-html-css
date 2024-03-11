@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulários HTML</title>
+  </head>
+  <body>
+    <h1>Formulário:</h1>
+    <h3>Por favor, preencha os seus dados:</h3>
+    <form action="envio.php">
+      Nome:
+      <input type="text" name="nome" id="nome" />
+      <br />
+      Eu tenho um carro:
+      <input type="checkbox" name="temCarro" id="temCarro" />
+      <br />
+      Data de Nascimento:
+      <input type="date" name="dataNascimento" id="dataNascimento" />
+      <br />
+      Masculino:
+      <input type="radio" name="sexo" id="sexo" value="masculino" />
+      Feminino:
+      <input type="radio" name="sexo" id="sexo" value="feminino" />
+      Outro:
+      <input type="radio" name="sexo" id="sexo" value="outro" />
+      <br />
+      <br />
+      Deixe seus comentários:
+      <textarea name="comentario" id="comentario" cols="30" rows="10">
+      </textarea>
+      <br />
+      Digite sua senha:
+      <input type="password" name="senha" id="senha" />
+      <br />
+      <br />
+      <input type="submit" name="enviar" id="enviar" value="enviar" />
+    </form>
+  </body>
+</html>
