@@ -1,3 +1,73 @@
-h1 {
-    color: red;
+/**
+Comentários em CSS
+**/
+
+body {
+  text-align: justify;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+h2 {
+  color: green;
+  text-align: center;
+}
+
+h3 {
+  color: darkblue;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+p {
+  color: #00a9c1;
+}
+
+/** Classes e IDs **/
+#lero-politico {
+  color: brown;
+}
+
+.p-texto {
+  color: lightgreen;
+  font-size: 40px;
+}
+
+/** Cores **/
+
+.nome {
+  color: orange;
+}
+
+.hexa {
+  color: #930f41;
+}
+
+.rgba {
+  color: rgba(255, 166, 166, 1);
+  font-size: 40px;
+}
+
+/** Backgrounds **/
+
+.div-background {
+  background-image: url("img/por-do-sol.jpg");
+  height: 300px;
+}
+
+.titulo-background {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+/** Fontes **/
